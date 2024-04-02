@@ -1,0 +1,315 @@
+.slide-container {
+    width: 640px;
+    height: 426px;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 1%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.image-container {
+    width: 3200px;
+    height: 426px;
+    position: relative;
+    transition: left 2s;
+}
+
+.slide-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.slide-button {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .45);
+    margin: 5px;
+}
+
+#slide-image-1:target~.image-container {
+    left: 0px;
+}
+
+#slide-image-2:target~.image-container {
+    left: -640px;
+}
+
+#slide-image-3:target~.image-container {
+    left: -1280px;
+}
+
+#slide-image-4:target~.image-container {
+    left: -1920px;
+}
+
+#slide-image-5:target~.image-container {
+    left: -2560px;
+}
+
+.button-container {
+    position: relative;
+    top: -50px;
+}
+h3 {
+    color: blue;
+    width: 100%;
+    text-align: center;
+}
+#combine {
+    display: flex;
+    width: 90vw;
+    margin:0 auto;
+}
+#one {
+display: flex;
+flex-direction: column;
+width: 30vw;
+}
+#two {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+  }
+    #three {
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+ }
+
+
+ .center {
+    text-align: center;
+ }
+
+.picture {
+    width: 250px;
+    height: 250px;
+    margin: 150px 5px 5px 150px;
+    display: block;
+}
+.Page3_Title {
+    margin: 10px;
+    padding: 20px;
+    width: 30vw;
+}
+.Page3_text {
+    margin-top: 5px;
+    line-height: 2em;
+}
+
+#logo {
+
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    left: 70px;
+    position: fixed;
+    z-index: 1500;
+}
+/* index page */
+#first_title {
+    width: 700px;
+    margin: 30vh auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 100px;
+}
+
+/* end index page */
+/* about us page */
+#about_title{
+    width: 700px;
+    margin: 30vh auto;
+    text-align: center;
+    color: black;
+    font-size: 70px;
+}
+#about_us_container {
+    margin-top: 50px;
+    height: 300px;
+    width: 1500px;
+    display: flex;   
+}
+
+.about_text {
+    color:rgb(9, 24, 235);
+    width: 70%;
+    font-size: 50px;
+    background-color: bisque;
+    margin: 15%;
+    margin-top: -200px;
+    line-height: 2em;
+    text-align: center;
+}
+/* end of about us page */
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+form {
+    width: 500px;
+    margin: 100px auto;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+.Requestform {
+    margin-top: 100px;
+    color: black;
+}
+
+input,
+textarea {
+    display: block;
+    border: 1px solid;
+    border-color: lightblue;
+    border-radius: 4px;
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: cornflowerblue;
+    padding: 0.9em;
+}
+.row{
+    margin-top:20px;
+    width:200px;
+    display:flex;
+    height:20px;
+
+}
+input {
+    height: 20px;
+
+}
+
+input:focus {
+    background-color: papayawhip;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+}
+
+textarea:focus {
+    background-color: papayawhip;
+}
+
+.radio,
+.checkbox {
+    width: auto;
+    display: inline-block;
+  padding: 1px;
+
+}
+
+
+.select {
+    width: auto;
+    display: inline-block;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding: 0;
+
+}
+
+.submit,
+.reset {
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    color:black;
+    padding: 0.6em 0.9em;
+
+}
+
+
+
+h2 {
+    font-size: 2em;
+    margin: 20px;
+}
+
+#menu {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    background-color: black;
+    z-index: 1000;
+}
+
+#menu li {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 1.2em;
+    line-height: 60px;
+    padding-right: 30px;
+    z-index: 3000;
+}
+
+#menu li:hover {
+    color: darkgoldenrod;
+}
+
+
+.text {
+    margin: 20px;
+    padding: 20px;
+}
+
+.sub_text {
+    margin: 20px;
+    line-height: 2em;
+}
+
+
+#pic1
+{
+    height: 150px;
+    display: flex;
+    width: 100px;
+    margin-top: 200px;
+}
+
+#pic2 {
+    height: 150px;
+    display: flex;
+    width: 150px;
+    margin-top: 200px;
+}
+
+footer {
+    padding-left: 70px;
+    position: fixed;
+    bottom: 0px;
+    text-align: left;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    line-height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
